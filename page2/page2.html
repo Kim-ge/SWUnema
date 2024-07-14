@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<header class="header">
+  <h1 class="header-logo"><a href=""><img src="images/logo.png" alt=""></a></h1>
+  <div class="member">
+    <ul class="member-left">
+      <li class="member-item member-item--left"><a class="member-link" href="">VIP LOUNGE</a></li>
+      <li class="member-item member-item--left"><a class="member-link" href="">멤버십</a></li>
+      <li class="member-item member-item--left"><a class="member-link" href="">고객센터</a></li>
+    </ul>
+    <ul class="member-right">
+      <li class="member-item member-item--right"><a class="member-link" href="">로그인</a></li>
+      <li class="member-item member-item--right"><a class="member-link" href="">회원가입</a></li>
+      <li class="member-item member-item--right"><a class="member-link" href="">빠른예매</a></li>
+    </ul>
+  </div>
+  <div class="ui">
+    <ul class="ui-left">
+      <li class="ui-item ui-item--left"><button class="ui-button ui-button--sitemap"></button></li>
+      <li class="ui-item ui-item--left"><button class="ui-button ui-button--search"></button></li>
+    </ul>
+    <ul class="ui-right">
+      <li class="ui-item ui-item--right"><a class="ui-link ui-link--timetable" href=""></a></li>
+      <li class="ui-item ui-item--right"><button class="ui-button ui-button--mymega" href=""></button></li>
+    </ul>
+  </div>
+  <div class="layer">
+    <div class="layer-content layer-content--sitemap">
+      <div class="sitemap">
+        <h3 class="sitemap-title">SITEMAP</h3>
+        <ul class="sitemap-group">
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">영화</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">전체영화</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">큐레이션</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">영화제</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">무비포스트</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">예매</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">빠른예매</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">상영시간표</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">더 부티크 프라이빗 예매</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">극장</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">전체극장</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">특별관</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">이벤트</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">진행중 이벤트</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">지난 이벤트</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">당첨자발표</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">스토어</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">새로운 상품</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">메가티켓</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">메가찬스</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">팝콘/음료/굿즈</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">나의 메가박스</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">나의 메가박스 홈</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">예매/구매내역</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">영화관람권</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">스토어교환권</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">할인/제휴쿠폰</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">멤버십포인트</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">나의 무비스토리</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">나의 이벤트 응모내역</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">나의 문의내역</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">자주쓰는 할인 카드</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">회원정보</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">혜택</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">멤버십 안내</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">VIP LOUNGE</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">제휴/할인</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">고객센터</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">고객센터 홈</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">자주묻는 질문</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">공지사항</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">1:1문의</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">단체/대관문의</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">분실물문의</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">회사소개</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">메가박스소개</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">사회공헌</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">홍보자료</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">제휴/부대사업문의</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">온라인제보센터</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">IR자료</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">인재채용</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">윤리경영</a></li>
+            </ul>
+          </li>
+
+          <li class="sitemap-item">
+            <span class="sitemap-item__title">이용정책</span>
+            <ul class="sitemap-item__section">
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">이용약관</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">위치기반서비스 이용약관</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">개인정보처리방침</a></li>
+              <li class="sitemap-item__menu"><a class="sitemap-item__link" href="">스크린수배정에관한기준</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="layer-content layer-content--search">
+      <div class="search">
+        <div class="search-tab">
+          <a class="search-tab__link on" data-class="search-content--ticket" href="">예매율 순</a>
+          <a class="search-tab__link" data-class="search-content--audience" href="">메가박스 관객순</a>
+        </div>
+        <div class="search-content search-content--ticket on">
+          <div class="search-thumb"><img class="search-thumb__image" src="images/poster/poster-small-1.jpg" alt=""></div>
+          <div class="search-rank">
+            <ul>
+              <li class="search-rank__item"><span class="search-rank__number">1</span><a class="search-rank__link search-rank__link--first" data-image="images/poster/poster-small-1.jpg" href="">나일강의 죽음</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">2</span><a class="search-rank__link" data-image="images/poster/poster-small-2.jpg" href="">해적: 도깨비 깃발</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">3</span><a class="search-rank__link" data-image="images/poster/poster-small-3.jpg" href="">킹메이커</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">4</span><a class="search-rank__link" data-image="images/poster/poster-small-4.jpg" href="">만년이 지나도 변하지 않는 게 있어</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">5</span><a class="search-rank__link" data-image="images/poster/poster-small-5.jpg" href="">듄</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="search-content search-content--audience">
+          <div class="search-thumb"><img class="search-thumb__image" src="images/poster/poster-small-6.jpg" alt=""></div>
+          <div class="search-rank">
+            <ul>
+              <li class="search-rank__item"><span class="search-rank__number">1</span><a class="search-rank__link search-rank__link--first" data-image="images/poster/poster-small-6.jpg" href="">스파이더맨: 노웨이 홈</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">2</span><a class="search-rank__link" data-image="images/poster/poster-small-5.jpg" href="">듄</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">3</span><a class="search-rank__link" data-image="images/poster/poster-small-7.jpg" href="">킹스맨: 퍼스트 에이전트</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">4</span><a class="search-rank__link" data-image="images/poster/poster-small-8.jpg" href="">씽2게더</a></li>
+              <li class="search-rank__item"><span class="search-rank__number">5</span><a class="search-rank__link" data-image="images/poster/poster-small-2.jpg" href="">해적: 도깨비 깃발</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <form class="search-form">
+          <div class="search-bar">
+            <input class="search-text" type="text" placeholder="영화를 검색하세요">
+            <button class="search-icon"></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="layer-content layer-content--mymega">
+      <div class="mymega">
+        로그인 하시면 나의 메가박스를 만날 수 있어요.<br>
+        영화를 사랑하는 당신을 위한 꼭 맞는 혜택까지 확인해 보세요!<br>
+        <div class="mymega-login"> 
+          <a class="mymega-login__link" href="">로그인</a>
+        </div>
+        <div class="mymega-join">
+          <a class="mymega-join__link" href="">혹시 아직 회원이 아니신가요?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="nav">
+    <ul class="nav-big nav-big--left">
+      <li class="nav-big__item">
+        <a class="nav-big__title" href="">영화</a>
+        <div class="nav-over">
+          <ul class="nav-small nav-small--movie">
+            <li class="nav-small__item"><a class="nav-small__link" href="">전체영화</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">N스크린</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">큐레이션</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">무비포스트</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-big__item">
+        <a class="nav-big__title" href="">예매</a>
+        <div class="nav-over">
+          <ul class="nav-small nav-small--ticket">
+            <li class="nav-small__item"><a class="nav-small__link" href="">빠른예매</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">상영시간표</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">더 부티크 프라이빗 예매</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-big__item">
+        <a class="nav-big__title" href="">극장</a>
+        <div class="nav-over">
+          <ul class="nav-small nav-small--theater">
+            <li class="nav-small__item"><a class="nav-small__link" href="">전체극장</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">특별관</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <ul class="nav-big nav-big--right">
+      <li class="nav-big__item">
+        <a class="nav-big__title" href="">이벤트</a>
+        <div class="nav-over">
+          <ul class="nav-small nav-small--event">
+            <li class="nav-small__item"><a class="nav-small__link" href="">진행중 이벤트</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">지난 이벤트</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">당첨자발표</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="nav-big__item">
+        <a class="nav-big__title" href="">스토어</a>
+      </li>
+      <li class="nav-big__item">
+        <a class="nav-big__title" href="">혜택</a>
+        <div class="nav-over">
+          <ul class="nav-small nav-small--benefit">
+            <li class="nav-small__item"><a class="nav-small__link" href="">메가박스 멤버십</a></li>
+            <li class="nav-small__item"><a class="nav-small__link" href="">제휴/할인</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <div class="loc">
+    <ul class="loc-container">
+      <li class="loc-item"><a class="loc-item__link" href=""><img src="images/icon/bg-location-home.png" alt=""></a></li>
+      <li class="loc-item"><a class="loc-item__link" href="">영화</a></li>
+      <li class="loc-item"><a class="loc-item__link" href="">전체영화</a></li>
+    </ul>
+  </div>
+</header>
+
+
+<main class="main">
+  <h2 class="main-title">전체영화</h2>
+  <div class="tab">
+    <ul>
+      <li class="tab-item on"><a class="tab-link" href="">박스오피스</a></li>
+      <li class="tab-item"><a class="tab-link" href="">상영예정작</a></li>
+      <li class="tab-item"><a class="tab-link" href="">특별상영</a></li>
+      <li class="tab-item"><a class="tab-link" href="">필름소사이어티</a></li>
+      <li class="tab-item"><a class="tab-link" href="">클래식소사이어티</a></li>
+    </ul>
+  </div>
+  <div class="pick">
+    <div class="pick-filter">
+      <button class="pick-filter__button">개봉작만</button>
+      <span class="pick-filter__result">79개의 영화가 검색되었습니다.</span>
+    </div>
+    <div class="pick-search">
+      <input class="pick-search__text" type="text" placeholder="영화명 검색">
+      <button class="pick-search__button"></button>
+    </div>
+  </div>
+  <div class="movie">
+    <ul class="movie-group">
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-1.jpg" alt="">
+            <div class="card-number">1</div>
+            <ul class="card-tag">
+              <li class="card-tag__item card-tag__item--dolby"></li>  
+              <li class="card-tag__item card-tag__item--mx"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                “가자, 보물 찾으러!”
+
+                자칭 고려 제일검인 의적단 두목 ‘무치’(강하늘)와
+                바다를 평정한 해적선의 주인 ‘해랑’(한효주).  
+                한 배에서 운명을 함께하게 된 이들이지만
+                산과 바다, 태생부터 상극으로 사사건건 부딪히며 바람 잘 날 없는 항해를 이어간다.
+
+                그러던 어느 날, 왜구선을 소탕하던 이들은
+                흔적도 없이 사라진 왕실의 보물이 어딘가 숨겨져 있다는 사실을 알게 되고
+                해적 인생에 다시없을 최대 규모의 보물을 찾아 위험천만한 모험에 나서기 시작한다.
+
+                하지만 사라진 보물을 노리는 건 이들뿐만이 아니었으니!
+                원하는 것을 얻기 위해 수단과 방법을 가리지 않는 역적 ‘부흥수’(권상우) 또한
+                보물을 차지하기 위해 바다에 뛰어드는데...!
+
+                해적과 의적, 그리고 역적
+                사라진 보물! 찾는 자가 주인이다!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>7.6</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--12">12</span>해적: 도깨비 깃발 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 17.6%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 26</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">570</button>
+            <button class="card-button">예매</button>
+            <button class="card-button card-button--dolby"></button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-2.jpg" alt="">
+            <div class="card-number">2</div>
+            <ul class="card-tag">
+              <li class="card-tag__item card-tag__item--dolby"></li>  
+              <li class="card-tag__item card-tag__item--mx"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                &lt;오리엔트 특급 살인&gt;을 이을 또 하나의 완벽한 살인 사건 살인은 시작에 불과했다!
+                행복한 신혼부부를 태운 나일 강의 초호화 여객선 그곳에서 끔찍한 살인 사건이 벌어진다.
+                위태롭고 불길한 분위기의 선상에서 탑승객들을 심문하는 탐정 ‘에르큘 포와로’
+                모두가 범인으로 의심되는 가운데,
+                연이어 발생한 살인 사건은 그의 영혼을 송두리째 뒤흔들고,
+                관객은 마지막 순간까지 예기치 못한 반전으로 놀라운 결말에 이르게 된다.
+                </div>
+              
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--12">12</span>나일강의 죽음 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 16.9%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 02. 09</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">519</button>
+            <button class="card-button">예매</button>
+            <button class="card-button card-button--dolby"></button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-3.jpg" alt="">
+            <div class="card-number">3</div>
+            <ul class="card-tag"> 
+              <li class="card-tag__item card-tag__item--mx"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                세상 바뀌는 꼴 좀 보고 싶습니다
+
+                세상을 바꾸기 위해 도전하는 정치인 ‘김운범’ 앞에
+                그와 뜻을 함께하고자 선거 전략가 ‘서창대’가 찾아온다.
+
+                열세인 상황 속에서 서창대는 아무도 상상하지 못한 선거 전략을 펼치고
+                ‘김운범’은 선거에 연이어 승리하며, 당을 대표하는 대통령 후보까지 올라서게 된다.
+
+                대통령 선거를 향한 본격적인 행보가 시작되고 그들은 당선을 위해 총력을 기울인다. 
+
+                그러던 중 ‘김운범’ 자택에 폭발물이 터지는 사건이 발생하고
+                용의자로 ‘서창대’가 지목되면서 둘의 관계는 새로운 국면을 맞이하게 되는데...
+
+                치열한 선거판,
+                그 중심에 있던 두 남자의 이야기가 시작된다!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.7</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>킹메이커
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 14.4%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 26</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">741</button>
+            <button class="card-button card-button--long">예매</button>            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-4.jpg" alt="">
+            <div class="card-number">4</div>
+            <ul class="card-tag">
+              <li class="card-tag__item card-tag__item--dolby"></li>  
+              <li class="card-tag__item card-tag__item--mx"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                “듄을 지배하는 자가 우주를 지배한다!”
+
+                10191년, 아트레이데스 가문의 후계자인 폴(티모시 샬라메)은 시공을 초월한 존재이자 
+                전 우주를 구원할 예지된 자의 운명을 타고났다. 
+                그리고 어떤 계시처럼 매일 꿈에서 아라키스 행성에 있는 한 여인을 만난다. 
+                모래언덕을 뜻하는 '듄'이라 불리는 아라키스는 물 한 방울 없는 사막이지만 
+                우주에서 가장 비싼 물질인 신성한 환각제 스파이스의 유일한 생산지로 이를 차지하기 위한 전쟁이 치열하다. 
+                황제의 명령으로 폴과 아트레이데스 가문은 죽음이 기다리는 아라키스로 향하는데…
+
+                위대한 자는 부름에 응답한다, 두려움에 맞서라, 이것은 위대한 시작이다!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>9</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--12">12</span>듄 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 7.6%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2021. 10. 20</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">1.8k</button>
+            <button class="card-button">예매</button>
+            <button class="card-button card-button--dolby"></button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-5.jpg" alt="">
+            <div class="card-number">5</div>
+            <ul class="card-tag">
+              <li class="card-tag__item card-tag__item--dolby"></li>  
+              <li class="card-tag__item card-tag__item--mx"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                영화 <스파이더맨: 노 웨이 홈>은 정체가 탄로난 스파이더맨 '피터 파커'(톰 홀랜드)가
+                문제를 해결하기 위해 '닥터 스트레인지'(베네딕트 컴버배치)의 도움을 받던 중 뜻하지 않게 
+                멀티버스가 열리게 되고, 이를 통해 '닥터 옥토퍼스'(알프리드 몰리나) 등 각기 다른 차원의 
+                숙적들이 나타나며 사상 최악의 위기를 맞게 되는 이야기를 그린 마블 액션 블록버스터.
+                </div>
+                <div class="card-rate">
+                  관람평 <span>9.3</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>스파이더맨: 노 웨이 홈 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 6.6%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2021. 12. 15</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">4.7k</button>
+            <button class="card-button">예매</button>
+            <button class="card-button card-button--dolby"></button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-6.jpg" alt="">
+            <div class="card-number">6</div>
+            <ul class="card-tag">
+              <li class="card-tag__item card-tag__item--dolby"></li>  
+              <li class="card-tag__item card-tag__item--mx"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                전 세계가 주목한 스테이지! 함께 도전할 준비됐지?
+
+                대국민 오디션 이후 각자의 자리에서 꿈을 이루고 있는 버스터 문(매튜 맥커너히)과 크루들에게
+                레드 쇼어 시티에서 전 세계가 주목하는 사상 최고의 쇼가 펼쳐진다는 소식이 들려오고
+                버스터 문과 크루들은 도전에 나선다.
+
+                그러나 최고의 스테이지에 서기 위한 경쟁은 이전과는 비교도 할 수 없을 만큼 치열하고,
+                버스터 문은 완벽한 라이브를 위해 종적을 감춘 레전드 뮤지션 클레이(보노)를 캐스팅하겠다는 파격 선언을 하는데!
+
+                *공식 홈페이지: https://sing2.universalpictureskr.com
+                </div>
+                <div class="card-rate">
+                  관람평 <span>9.4</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--all">All</span>씽2게더 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 6.2%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 15</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">719</button>
+            <button class="card-button">예매</button>
+            <button class="card-button card-button--dolby"></button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-7.jpg" alt="">
+            <div class="card-number">7</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+            
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--all">All</span>해리 포터와 불사조 기사단 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 5.7%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 02. 09</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">184</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-8.jpg" alt="">
+            <div class="card-number">8</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                “죽여서라도 갖고 싶은 그 이름”
+
+                처음부터 사랑에 빠졌던 그 이름 구찌
+                내 것이 될수록 더욱 갖고 싶었던 이름
+                누구에게도 뺏길 수 없었던 그 이름
+                구찌를 갖기 위해 구찌를 죽이기로 했다.
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.4</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>하우스 오브 구찌
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 3.4%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 12</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">560</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-9.jpg" alt="">
+            <div class="card-number">9</div>
+            <div class="card-award card-award--film"></div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                각각 역사, 체육, 음악, 심리학을 가르치는 같은 고등학교 교사 니콜라이, 마르틴, 페테르, 톰뮈는 
+                의욕 없는 학생들을 상대하며 열정마저 사라지고 매일이 우울하기만 하다. 니콜라이의 40번째 생일 
+                축하 자리에서 “인간에게 결핍된 혈중 알코올 농도 0.05%를 유지하면 적당히 창의적이고 활발해진다”는 
+                흥미로운 가설에 대한 이야기를 나누고, 마르틴이 실험에 들어간다. 인기 없던 수업에 웃음이 넘치고 
+                가족들과의 관계에도 활기가 생긴 마르틴의 후일담에 친구들 모두 동참하면서 두 가지 조건을 정한다.
+
+                [언제나 최소 0.05%의 혈중 알코올 농도 유지할 것! 밤 8시 이후엔 술에 손대지 않을 것!]
+
+                지루한 교사, 매력 없는 남편, 따분한 아빠, 최적의 직업적, 사회적 성과를 위해 점차 알코올 농도를 올리며 
+                실험은 계속되는데… 과연 술은 인간을 더 나은 상태로 만들 수 있을지, 도전의 결말은?!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.7</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>어나더 라운드
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 3.2%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 19</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">392</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-10.jpg" alt="">
+            <div class="card-number">10</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                세계를 목표로 하는 나나세 하루카의 새로운 무대는 이전에 방문했던 꿈의 장소인 시드니.
+                그곳으로 떠나기 전 잠시 휴식을 취하던 어느 날, 하루카는 전 일본 수영 경기 대표 선발전에서
+                싸웠던 한 선수와 우연히 대치하고 투지를 불태운다.
+                함께 헤엄쳐 왔던 동료들과의 추억을 가슴에 품고 한층 더 새로운 경지에 발을 내딛는 하루카.
+                그곳에서 기다리고 있는 건 절대 왕자 · 알베르트 워란데르·
+                시드니 대회를 위해 선수들은 저마다 사기를 북돋워간다.
+                세계의 정점을 겨루는 가운데, 그들은 무엇을 느끼고 무엇을 위해 헤엄치는가.
+                물과 마주하는 그들의 뜨거운 싸움이 여기서 시작된다!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>9.4</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--all">All</span>프리! 더 파이널 스트로크 전편 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 2.8%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 20</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">1k</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-11.jpg" alt="">
+            <div class="card-number">11</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                ‘자두’는 제주도 가족여행에서 만난
+                엄친딸 제주 소녀 ‘전복’이가 못마땅하다.
+                게다가 ‘윤석’이를 바라보는 저 하트 눈빛은 뭐람!
+
+                베프 윤석이를 전복이가 독차지하자
+                화가 난 자두는 실수로 돌하르방을 넘어뜨리고,
+                먼 옛날 저주를 품고 봉인된 ‘보리’가 깨어난다.
+
+                보리가 쏜 돌하르방 빔에 맞은 사람들은 돌이 되어 굳어 버리고,
+                자두와 친구들은 모두를 원상태로 되돌릴 방법을 찾아 나서는데…
+
+                제주도로 자! 떠나보자 두!
+                명랑히어로 자두의 판타스틱 어드벤처!
+                제주도의 운명이 걸린 초특급 비밀은 과연 무엇일까?
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.3</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--all">All</span>극장판 안녕 자두야: 제주도의 비밀  
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 2.7%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 27</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">78</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-12.jpg" alt="">
+            <div class="card-number">12</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                12월, 베일에 감춰졌던 킹스맨의 탄생을 목격하라!
+
+                역사상 최악의 폭군들과 범죄자들이 모여
+                수백만 명의 생명을 위협할 전쟁을 모의하는 광기의 시대.
+
+                이들을 막으려는 한 사람과
+                그가 비밀리에 운영 중인 독립 정보기관,
+                ‘킹스맨’의 최초 미션이 시작된다!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.3</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--19">청불</span>킹스맨: 퍼스트 에이전트 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 2.3%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2021. 12. 22</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">1.2k</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-13.jpg" alt="">
+            <div class="card-number">13</div>
+            <div class="card-award card-award--film"></div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                누가 봐도 아름다운 부부 가후쿠와 오토.
+                우연히 아내의 외도를 목격한 가후쿠는 이유를 묻지 못한 채
+                갑작스럽게 아내의 죽음을 맞이하게 된다.
+                2년 후 히로시마의 연극제에 초청되어 작품의 연출을 하게 된 가후쿠.
+                그는 그곳에서 자신의 전속 드라이버 미사키를 만나게 된다.
+                말없이 묵묵히 가후쿠의 차를 운전하는 미사키와
+                오래된 습관인 아내가 녹음한 테이프를 들으며 대사를 연습하는 가후쿠.
+                조용한 차 안에서 두 사람은 점점 마음을 열게 되고,
+                서로가 과거의 아픔에서 벗어나지 못한 것을 알게 된다.
+                그리고 눈 덮인 홋카이도에서 내면에 깊숙이 자리 잡은 서로의 슬픔을 들여다보게 되는데….
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.9</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>드라이브 마이 카
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 1.2%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2021. 12. 23</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">328</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-14.jpg" alt="">
+            <div class="card-number">14</div>
+            <ul class="card-tag">
+              <li class="card-tag__item card-tag__item--dolby"></li>  
+            </ul>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                “우리를 위한 세상이 있을 거야!”
+
+                스티븐 스필버그 감독의 첫번째 뮤지컬 영화
+
+                 
+
+                “예전과는 다르게 살고 싶어”
+
+                뉴욕 변두리를 장악한 제트파의 일원 ‘토니’(안셀 엘고트)는
+
+                어두운 과거를 뒤로하고 새로운 삶을 시작하려 한다.
+
+                 
+
+                “나도 멋지게 내 인생 살아보고 싶어”
+
+                제트파의 라이벌 샤크파의 리더 ‘베르나르도’의 동생 ‘마리아’(레이첼 지글러)는
+
+                고향인 푸에르토리코를 떠나 정착한 뉴욕에서 새로운 삶에 대한 희망에 부풀고
+
+                오빠의 그늘에서 벗어나 자신만의 인생을 찾고자 한다
+
+                 
+
+                “널 본 순간 다른 건 무의미해졌어”
+
+                무도회에서 우연히 만나 첫눈에 사랑에 빠진 마리아와 토니.
+
+                하지만 뉴욕의 웨스트 사이드를 차지하기 위한 샤크파와 제트파의 갈등은 점차 깊어지고
+
+                ‘마리아’와 ‘토니’는 자신들의 환경을 벗어나 새로운 삶을 함께 하기로 하는데…
+
+                 
+
+                1월, 새로운 세상을 꿈꾸는 모두를 위한 이야기가 시작된다.
+                </div>
+                <div class="card-rate">
+                  관람평 <span>7.4</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--12">12</span>웨스트 사이드 스토리 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.8%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 12</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">937</button>
+            <button class="card-button">예매</button>
+            <button class="card-button card-button--dolby"></button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-15.jpg" alt="">
+            <div class="card-number">15</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                2016년 전세계가 주목한 그 시작의 날
+                진보와 보수를 넘나드는 정치인들이 그날의 비화를 증언한다!
+
+                부정부패와 국정농단으로 국민들을 우롱했던 날들.
+                대한민국의 1,600만명이 한 목소리로 세상을 바꿨던 그때를 기억합니다.
+
+                전세계가 주목한 가장 위대했던 그때의 뒷 이야기들을
+                김의성, 주진우가 고영태, 김성태, 박영석, 손석희, 심상정, 유시민, 윤석열, 추미애,
+                그리고 촛불 시민들과 함께 모두 풀어냅니다.
+
+                "모두가 불가능 할 것이라 했던 변화를 이끈 건 광화문에서 밝힌 국민들의 촛불이었다"
+
+                촛불혁명 후 5년.
+                차가워진 당신의 심장을 다시 뛰게 할 영화, 아직 꺼지지 않은 <나의 촛불>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--all">All</span>나의 촛불
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.8%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 02. 10</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">162</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-16.jpg" alt="">
+            <div class="card-number">16</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                10년 전 과거로 타임리프! 운명을 바꿀 기회가 찾아왔다!
+                인생 전부를 걸고 펼치는 뜨거운 리벤지가 시작된다!
+
+                기대 없는 매일매일을 살아가는 20대 청년 타케미치는
+                어느 날 뉴스를 통해 첫사랑 여자친구가 사고로 사망했다는 소식을 듣게 된다.
+                유일하게 자신을 있는 그대로 믿어주었던 그녀를 떠올리던 타케미치는
+                특별한 타임리프를 통해 10년 전 고등학교 시절로 돌아가게 되고
+                그녀를 살리고 운명을 바꾸기 위해서는 자신이 변해야만 한다는 걸 깨닫게 되는데…
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.6</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>도쿄 리벤저스
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.8%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 19</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">605</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-17.jpg" alt="">
+            <div class="card-number">17</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                샤오미(송운화)만 사랑해 온 직진남 샤오룬(가진동),
+                하지만 청혼하려던 순간 갑작스런 사고로 저승에 간다.
+                환생하고 싶으면 붉은 실로 커플 매칭을 하는 월하노인 업무를 수행해야 한다는데,
+                하필 사사건건 부딪히던 핑키(왕정)와 파트너가 된다.
+
+                드디어 이승으로 내려온 ‘월하노인’ 샤오룬과 핑키.
+                그런데 이게 웬 운명의 장난?
+                우리가 인연을 맺어줘야 할 인간이
+                샤오룬이 평생 사랑했던 단 한 사람, 샤오미란다!
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--12">12</span>만년이 지나도 변하지 않는 게 있어
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.7%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 02. 09</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">147</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-18.jpg" alt="">
+            <div class="card-number">18</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                2022년을 여는 가장 짜릿한 범죄 오락 액션의 탄생!
+
+                예상치 못한 배송사고로 걷잡을 수 없는 사건에 휘말린
+                특송 전문 드라이버 ‘은하’.
+                어쩌다 맡게 된 반송 불가 수하물에 출처를 알 수 없는 300억까지!
+                경찰과 국정원의 타겟이 되어
+                도심 한복판 모든 것을 건 추격전을 벌이게 되는데…
+
+                NO브레이크! FULL엑셀!
+                성공률 100% 특송 전문 드라이버가 온다!
+                </div>
+                <div class="card-rate">
+                  관람평 <span>8.6</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--15">15</span>특송 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.5%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 12</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">369</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-19.jpg" alt="">
+            <div class="card-number">19</div>
+            <div class="card-award card-award--classic"></div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                그래미상에 빛나는 흑인 재즈 뮤지션이 작곡한 감동의 역작.
+                트라우마로 점철된 한 젊은이의 심오한 인생역정!
+
+                [상영 정보]
+                상영지점 : 센트럴 / 코엑스 / 목동 / 성수 / 분당 / 킨텍스
+                상영일정 : 2022년 2월 1일(화) ~ 2월 26일(토) / 화 19:00, 토 10:00
+                러닝타임 : 195분 *인터미션 없음
+
+                [공연정보] 
+                제작년도 : 2021년 10월 23일
+                작곡 : 테렌스 블랜처드 (Terence Blanchard)
+                지휘 : 야니크 네제 세갱 (Yannick Nézet-Séguin) 
+                연출 : 제임스 로빈슨 & 카미유 A. 브라운 (James Robinson and Camille A. Brown)
+                출연 : 엔젤 블루(운명/고독/그레타), 라토니아 무어(빌리), 윌 리버맨(찰스) 등
+                Angel Blue (Destiny/Loneliness/Greta), Latonia Moore (Billie), Will Liverman (Charles) 
+
+
+                [시놉시스]
+                메트 음악감독 야니크 네제 세갱은 찰스 M. 블로우의 감동적인 회고록을 바탕으로 작곡가이자 그래미상 수상 재즈 
+                뮤지션인 테렌스 블랜처드가 작곡한 오페라를 지휘한다. 영화감독 케이시 레몬스의 대본을 바탕으로 메트 역사상 
+                최초로 무대에 오르는 이 흑인 작곡가의 오페라는 트라우마와 역경으로 점철된 한 젊은이의 통렬하고 심오한 
+                인생역정 이야기를 담고 있다. 최근 거슈윈의 <포기와 베스>를 공동으로 연출한 바 있는 제임스 로빈슨과 카밀 A. 
+                브라운이 메트에서도 함께 연출을 담당한다. 바리톤 윌 리버만이 찰스로 등장하고 소프라노 엔젤 블루가 운명/고독/그레타 
+                역을, 소프라노 라토니아 무어가 빌리 역을 맡는다.
+                </div>
+                <div class="card-rate">
+                  관람평 <span>9.6</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--12">12</span>[오페라] 파이어 셧 업 인 마이 본즈 @The Met 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.5%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 02. 01</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">19</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+
+      <li class="movie-item">
+        <div class="card">
+          <div class="card-header">
+            <img class="card-image" src="images/poster/poster-20.jpg" alt="">
+            <div class="card-number">20</div>
+            <div class="card-over">
+              <a class="card-link" href="">
+                <div class="card-desc">
+                <바이올렛 에버가든 오케스트라 콘서트 2021>은 [바이올렛 에버가든] 시리즈와 
+                <바이올렛 에버가든-영원과 자동 수기 인형->, <극장판 바이올렛 에버가든> 속 
+                아름다운 OST를 지휘자 요시다 교이치와 라이덴샤프틀리히 교향악단이 영화의 감동을 
+                담은 영화 속 장면과 함께 아름다운 선율을 선사한다.
+                일본 현지 공연은 2021년 8월 14일~15일 이틀간 LINE CUBE SHIBUYA에서 콘서트가 개최됐다.
+                ‘바이올렛 에버가든’ TV 시리즈와 외전, 극장판의 여운을 간직하고 싶은 팬들을 위한 2022년 
+                새해 특급 콘서트로 국내 최초로 메가박스에서 공연 실황을 만날 수 있다.
+                </div>
+                <div class="card-rate">
+                  관람평 <span>9.4</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="card-main">
+            <div class="card-title">
+              <span class="card-rating card-rating--all">All</span>바이올렛 에버가든 오케스트라 콘서트 2021 
+            </div>
+            <div class="card-info">
+              <span class="card-info__section">예매율 0.3%</span>
+              <span class="card-info__particle"></span>
+              <span class="card-info__section">개봉일 2022. 01. 13</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="card-button card-button--like">406</button>
+            <button class="card-button card-button--long">예매</button>
+            
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="movie-more">
+      <a class="movie-more__link" href=""><span class="movie-more__text">더보기</span> <img src="images/icon/ico-btn-more-arr.png" alt=""></a>
+    </div>
+  </div>
+  <div class="scroll">
+    <button class="scroll-button"></button>
+  </div>
+</main>
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-top">
+      <ul class="footer-ui">
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">회사소개</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">인재채용</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">사회공헌</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">제휴/광고/부대사업문의</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">이용약관</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">위치기반서비스 이용약관</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link--strong" href="">개인정보처리방침</a></li>
+        <li class="footer-ui__item"><a class="footer-ui__link" href="">윤리경영</a></li>
+      </ul>
+      <a class="footer-search" href=""><span class="footer-search__text">극장찾기</span></a> 
+    </div>
+    <div class="footer-bottom">
+      <h2 class="footer-logo"></h2>
+      <div class="footer-info">
+        <div class="">서울특별시 마포구 월드컵로 240, 지상2층(성산동, 월드컵주경기장) ARS 1544-0070</div>
+        <div class="">대표자명 홍정인 · 개인정보보호책임자 조상연 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 제 2020-서울마포-4545 호</div>
+        <div class="">COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</div>
+      </div>
+      <ul class="footer-sns">
+        <li class="footer-sns__item footer-sns__item--twiiter"><a class="footer-sns__link" href=""></a></li>
+        <li class="footer-sns__item footer-sns__item--facebook"><a class="footer-sns__link" href=""></a></li>
+        <li class="footer-sns__item footer-sns__item--instagram"><a class="footer-sns__link" href=""></a></li>
+        <li class="footer-sns__item footer-sns__item--google"><a class="footer-sns__link" href=""></a></li>
+        <li class="footer-sns__item footer-sns__item--apple"><a class="footer-sns__link" href=""></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="js/common.js"></script>
+</body>
+</html>

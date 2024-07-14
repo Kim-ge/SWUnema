@@ -1,0 +1,994 @@
+@charset "utf-8";
+
+*{margin: auto; padding: 0px; box-sizing: border-box; font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;}
+body{ font-size: 15px; }
+.wrapper{ width: 100%; padding-top: 921px; }
+.iconset{
+	overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.container{ width: 1100px; position: relative; margin: 0 auto; }
+.container.hidden{ overflow-y: hidden; height: 921px; padding-top: 90px; }
+ul { list-style-type: none; margin-left : 0px; margin-right: 0px; padding: 0; }
+li { float: left; list-style-type: none; }
+a { display: block; color: #888888; padding: 8px; text-decoration: none; }
+a:hover { text-decoration-line: underline; }
+/*헤더*/
+#header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    min-width: 1100px;
+    height: 91px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    top: 0;
+}
+
+
+#header .ci {
+    position: absolute;
+    left: 50%;
+    top: 23px;
+    width: 140px;
+    height: 90px;
+    margin: 0 0 0 -70px;
+    padding: 0;
+}
+
+#header .ci a {
+    display: block;
+    width: 140px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    background: url(MEGABOX/megalogo.png) center center no-repeat;
+}
+
+#header .util-area {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    color: #666;
+}
+
+#header .util-area:after, #header .util-area:before {
+    content: '';
+    display: table;
+}
+
+#header .util-area .left-link {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: .8667em;
+    font-family: "Nanum Barun Gothic";
+}
+
+#header .util-area .left-link a {
+    float: left;
+    margin-right: 20px;
+    vertical-align: top;
+    color: #888888;
+    padding: 0;
+}
+
+#header .util-area .right-link {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-family: "Nanum Barun Gothic";
+}
+
+#header .util-area .right-link>a {
+    font-size: .8667em;
+}
+#header .util-area .right-link a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    vertical-align: top;
+    color: #888888;
+    padding: 0;
+}
+
+.page-util .location a:before, .page-util .location span.no-link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -14px;
+    top: 0;
+    width: 5px;
+    height: 42px;
+    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-arr.png) no-repeat left center;
+}
+
+#header .util-area .right-link .before {
+    font-size: .8667em;
+}
+
+#header .util-area .right-link>div {
+    float: left;
+}
+
+#header .link-area {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#header .link-area a {
+    display: block;
+    position: absolute;
+    top: 42px;
+    width: 36px;
+    height: 36px;
+    font-size: 0;
+    line-height: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+#header .link-area a.btn-layer-sitemap {
+    left: 0;
+    background-image: url(MEGABOX/ico-sitemap-white.png);
+}
+
+
+#header .link-area:after, #header .link-area:before {
+    content: '';
+    display: table;
+}
+
+#header .link-area a.btn-layer-search {
+    left: 40px;
+    background-image: url(MEGABOX/ico-search-white.png);
+}
+
+#header .link-area a.link-ticket {
+    right: 40px;
+    background-image: url(MEGABOX/ico-schedule-white.png);
+}
+
+#header .link-area a.btn-layer-mymega {
+    right: 0;
+    background-image: url(MEGABOX/ico-mymega-white.png);
+}
+
+
+/*상단리스트(메뉴)*/
+
+li{
+    list-style-type: none;
+}
+
+#gnb {
+    height: 0;
+}
+
+#gnb ul:after, #gnb ul:before {
+    content: '';
+    display: table;
+}
+
+#gnb ul:after {
+    clear: both;
+}
+
+#gnb>ul {
+    position: relative;
+    width: 1100px;
+    margin: 90px auto 0 auto;
+}
+
+#gnb ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#gnb>ul>li>a.gnb-txt-movie {
+    width: 30px;
+    background-image: url(MEGABOX/gnb-txt-movie-white.png);
+}
+
+#gnb>ul>li>a.gnb-txt-reserve {
+    width: 30px;
+    background-image: url(MEGABOX/gnb-txt-reserve-white.png);
+}
+
+#gnb>ul>li>a.gnb-txt-theater {
+    width: 31px;
+    background-image: url(MEGABOX/gnb-txt-theater-white.png);
+}
+
+
+#gnb>ul>li>a.gnb-txt-event {
+    width: 45px;
+    background-image: url(MEGABOX/gnb-txt-event-white.png);
+}
+
+#gnb>ul>li>a.gnb-txt-store {
+    width: 44px;
+    background-image: url(MEGABOX/gnb-txt-store-white.png);
+}
+#gnb>ul>li>a.gnb-txt-store:hover {
+    border-bottom: 0;
+}
+
+
+#gnb>ul>li>a.gnb-txt-benefit {
+    width: 29px;
+    background-image: url(MEGABOX/gnb-txt-benefit-white.png);
+}
+
+/*------------------------2단메뉴바 구현--------------------------------------*/
+
+#gnb >ul> li:hover > ul{
+    display: block;
+}
+
+
+#gnb .gnb-depth1 li ul li a{
+    overflow: hidden;
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: "Nanum Barun Gothic";
+    padding: 0;
+}
+
+
+#gnb > ul > li > ul {
+    display: none;
+    position: absolute;
+    height: 44px;
+    width: 100vw;
+    background-color: rgba(0,0,0,.2);
+}
+
+
+#gnb>ul>li>a {
+    position: absolute;
+    top: -38px;
+    height: 38px;
+    text-indent: -9999px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+#gnb > ul > li > a:hover {
+    border-bottom: 3px solid #FFFFFF;
+}
+
+
+
+/*-------------------------------------*/
+
+#gnb .gnb-depth1 li ul:first-child {
+    margin-left: 0;
+}
+
+
+#gnb>ul>li:nth-child(1)>a {
+    left: 166px;
+    
+}
+#gnb>ul>li:nth-child(1) ul {
+    padding-left: 50px;
+}
+
+#gnb>ul>li:nth-child(2)>a {
+    left: 256px;
+}
+#gnb>ul>li:nth-child(2) ul {
+    padding-left: 166px;
+}
+
+#gnb>ul>li:nth-child(3)>a {
+    left: 345px;
+}
+
+#gnb>ul>li:nth-child(3) ul {
+    padding-left: 300px;
+}
+
+#gnb>ul>li:nth-child(4)>a {
+    right: 347px;
+}
+#gnb>ul>li:nth-child(4) ul {
+    padding-left: 598px;
+}
+
+#gnb>ul>li:nth-child(5)>a {
+    right: 241px;
+}
+
+
+#gnb>ul>li:nth-child(6)>a {
+    right: 150px;
+}
+#gnb>ul>li:nth-child(6) ul {
+    padding-left: 834px;
+}
+
+#gnb .gnb-depth1 li ul:last-child {
+    margin-right: 0;
+}
+
+/*--------------------------사이트맵레이어-------------------*/   
+.layer-sitemap {
+    display: none;
+}
+
+.layer-sitemap {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    z-index: 101;
+    width: 100%;
+    min-width: 1100px;
+    height: 750px;
+    overflow: auto;
+    background-color: #333;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    font-family: "Nanum Barun Gothic";
+}
+
+.layer-sitemap .wrap {
+    overflow: hidden;
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.layer-sitemap .wrap .link-acc {
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -99999px;
+    top: -99999px;
+}
+
+.layer-sitemap .wrap .tit {
+    padding: 50px 0 0 0;
+    font-size: 1.4666em;
+    color: #fff;
+    line-height: 1.1;
+}
+.layer-sitemap .wrap p {
+    margin: 0;
+    padding: 0;
+}
+
+.layer-sitemap .wrap .list.position-1 {
+    left: 0;
+    top: 97px;
+    width: 159px;
+}
+.layer-sitemap .wrap .list {
+    position: absolute;
+    width: 158px;
+}
+
+.layer-sitemap .wrap .list .tit-depth {
+    height: 48px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 46px;
+    text-align: center;
+    border-width: 1px 0;
+    border-color: rgba(68,68,68,.5);
+    border-style: solid;
+}
+
+.layer-sitemap .wrap .list .list-depth {
+    line-height: 1.1;
+}
+
+.layer-sitemap .wrap .list .list-depth li {
+    padding: 18px 0 0 0;
+    text-align: center;
+    width: 158px;
+}
+
+.layer-sitemap .wrap .list .list-depth li a {
+    display: inline-block;
+    color: #bbb;
+    font-size: 15px;
+    padding: 0;
+}
+.layer-sitemap .wrap .list .list-depth li a:hover {
+    color: #339eb2;
+    text-decoration: underline;
+}
+
+.layer-sitemap .wrap .list.position-2 {
+    left: 189px;
+    top: 97px;
+}
+
+.layer-sitemap .wrap .list.position-3 {
+    left: 377px;
+    top: 97px;
+}
+
+.layer-sitemap .wrap .list.position-4 {
+    left: 565px;
+    top: 97px;
+}
+
+.layer-sitemap .wrap .list.position-5 {
+    left: 753px;
+    top: 97px;
+}
+
+.layer-sitemap .wrap .list.position-6 {
+    left: 941px;
+    top: 97px;
+    width: 159px;
+}
+
+.layer-sitemap .wrap .list.position-7 {
+    left: 0;
+    top: 368px;
+    width: 159px;
+}
+
+.layer-sitemap .wrap .list.position-8 {
+    left: 189px;
+    top: 368px;
+}
+
+.layer-sitemap .wrap .list.position-9 {
+    left: 377px;
+    top: 368px;
+}
+
+.layer-sitemap .wrap .list.position-10 {
+    left: 565px;
+    top: 368px;
+}
+
+.ir {
+    text-indent: -9999px;
+    position: fixed;
+    top: -9999px;
+    font-size: 1px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+/*-----------------------------검색레이어------------------------------*/
+.layer-header-search {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 100%;
+    height: 380px;
+    background-color: #351f67;
+    z-index: 99;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    font-family: "Nanum Barun Gothic";
+}
+
+.layer-header-search .wrap {
+    overflow: hidden;
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.layer-header-search .wrap .link-acc {
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -99999px;
+    top: -99999px;
+}
+
+.layer-header-search .wrap .tab-rank {
+    padding-top: 50px;
+}
+
+.layer-header-search .wrap .tab-rank ul {
+    overflow: hidden;
+}
+
+.layer-header-search .wrap .tab-rank ul li:first-child {
+    margin: 0;
+}
+.layer-header-search .wrap .tab-rank ul li {
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+.layer-header-search .wrap .tab-rank ul li.on .btn {
+    border-color: #fff;
+}
+.layer-header-search .wrap .tab-rank ul li .btn {
+    display: block;
+    margin: 0;
+    padding: 0 0 8px 0;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.1;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background-color: transparent;
+}
+
+.layer-header-search .wrap .rank-cont {
+    overflow: hidden;
+    position: relative;
+    min-height: 215px;
+    margin: 30px 0 0 0;
+    padding: 0 0 0 200px;
+}
+
+.layer-header-search .wrap .rank-cont .img {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 214px;
+    font-size: 0;
+    line-height: 0;
+}
+.layer-header-search p {
+    margin: 0;
+    padding: 0;
+}
+
+.layer-header-search .wrap .rank-cont .img img {
+    width: 100%;
+    max-height: 100%;
+}
+
+
+.layer-header-search .wrap .rank-cont .list li {
+    position: relative;
+    padding: 11px 0 0 30px;
+    height: 40px;
+    width: 100%;
+}
+
+.layer-header-search .wrap .rank-cont .list li em {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 1.8666em;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.1;
+    vertical-align: middle;
+}
+
+.layer-header-search .wrap .rank-cont .list li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    max-width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.layer-header-search .wrap .header-search-area {
+    overflow: hidden;
+    position: absolute;
+    left: 560px;
+    top: 170px;
+    width: 420px;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+}
+
+.layer-header-search .wrap .header-search-area .input-text {
+    display: block;
+    float: left;
+    width: 360px;
+    height: 59px;
+    border: 0;
+    font-size: 1.2em;
+    color: #FFF;
+    background-color: transparent;
+    outline: none;
+}
+.layer-header-search .wrap .header-search-area .input-text::placeholder{
+    color: #FFF;
+}
+
+.input-text {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #fff;
+    border: 1px solid #d8d9db;
+    vertical-align: middle;
+    font-family: NanumBarunGothic,sans-serif;
+}
+
+.layer-header-search .wrap .header-search-area .btn-search {
+    overflow: hidden;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    border: 0;
+    background: url(MEGABOX/ico-search-white.png) no-repeat center;
+}
+/*헤더*/
+
+/*메인*/
+.main{ position: absolute; width: 100vw; height: 921px; top: 0; left: 0; }
+
+.bg{
+	background-image: url('MEGABOX/bg.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 921px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.blur{ width: 100%; height: 100%; backdrop-filter: blur(50px); background-color: rgba(0, 0, 0, 0.8); }
+
+.main_movie{ width: 100%; z-index: 1; position: relative; }
+.main_movie{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.main_movie::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+.main_movie_top{ padding-top: 85px; }
+.main-top{ display: flex; align-items: center; justify-content: center; position: relative; }
+.boxoffice{ font-size: 1.0667em; color: white; text-decoration: none; border-bottom: 2px solid rgba(255,255,255,0.2); padding: 5px 0; margin-bottom: 25px; }
+.plus-btn{ position: absolute; top: 50%; right: 0; transform: translateY(-50%); float:right; height: 25px;}
+.plus-btn a{ padding: 0; font-size: 15px; color: #aaa; }
+.more-movie a{ display: flex; align-items: center; }
+.plus-icon{ padding-left: 8px; }
+.forster-btn{ display: inline-block; width: 68px; height: 34px; padding: 0 5px;}
+.btn{ overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 0 0 85px;
+    text-align: left; }
+.button {
+    display: inline-block;
+    height: 36px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 34px;
+    color: #503396;
+    font-weight: 400;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #503396;
+    vertical-align: middle;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button>i {
+    margin-top: -2px;
+    margin-right: 4px;
+}
+.movie-info{ overflow: hidden;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 352px;
+    border-radius: 5px;
+    background-color: #24202b;
+    padding: 0;
+}
+.screen-type{ position: absolute; right: 10px; top: 10px; }
+.screen-type p {
+    display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.6);
+}
+.movie-info .rank{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    padding: 10px 0 0 15px;
+    margin: 0;
+    line-height: 1.1;
+    font-size: 2em;
+    font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 80%);
+    background: url(MEGABOX/bg-main-movie-rank.png) no-repeat 0 0;
+}
+.screen-type img{ display: block; }
+.poster-image{ display: block; width: 245px; height: 352px; border-radius: 5px;}
+.movie-info .wrap{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 25px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+.movie-info .wrap:hover{ opacity: 1; }
+.movie-info .wrap .summary{
+    overflow: hidden;
+    height: 152px;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.movie-info .wrap .score{
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #3c3c3c;
+    text-align: center;
+}
+.movie-info .preview{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 36px;
+}
+.movie-info .preview .tit{
+    display: block;
+    float: left;
+    margin: 0 19px 0 0;
+}
+.movie-info .preview .number{
+    float: left;
+    font-size: 1.6em;
+    color: #59bec9;
+}
+.like{ position: absolute;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 36px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 0.8667em;
+    border-color: #555;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.4); }
+.reserve{ line-height: 36px; border: 0; background: #037b94; width: 160px; border-radius: 4px; }
+.ico-heart{ background-image: url(MEGABOX/likebtn.png); width: 17px; height: 15px;}
+.reserve a{ color: #fff; font-size: 15px; padding: 0; text-decoration: none; text-align: center;}
+
+.main_movie_list .list{ display: grid; grid-template-columns: repeat(4,1fr); gap: 40px; width: 100%; }
+.link-list{ 
+	width: 100%;
+	overflow: hidden;
+    height: 75px;
+    margin: 50px 0 0 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2);
+}
+.link-item{ width: 25%; display: inline-flex; align-items: center; justify-content: center; }
+.link-item a{
+	line-height: 30px;
+	color: #FFF;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 30px;
+	padding: 0;
+	border-right: 1px solid #423e3e; 
+}
+.link-item:last-child a{ border: 0; }
+.link-item img{ margin-right: 7px; margin-left: 0; }
+.link-item button{ height: 29px; }
+.link-item input, .link-item button{ background-color: transparent; outline: none; border: 0; color: #FFF;}
+.link-item > div{ border-right: 1px solid #423e3e; width: 100%; display: flex; justify-content: center; }
+.link-item .input-group{ display: inline-flex; align-items: center; margin: 0 auto; border-bottom: 1px solid #423e3e; }
+.link-item .input-group input{ width: 170px; padding: 0 10px; }
+.link-item .input-group button{ width: 30px; }
+
+.mouse{ margin-top: 30px; width: 100%; position: absolute; display: flex; justify-content: center; bottom: -10%; left: 0;}
+@keyframes aniMouse { 
+    0% { transform: translateY( -10px) }
+    100% { transform: translateY( 10px) }
+ }
+.mouse-image{ 
+    animation: aniMouse 1s ease-in-out 1s infinite alternate ;
+ }
+
+/*메인*/
+
+/*혜택*/
+.benefit{ height: 844.5px; }
+.benefit-top{ padding-top: 50px; display: flex; justify-content: space-between; }
+.benefit-top .tit { color: #351F66; font-size: 30px; margin:0 ; font-weight: 400; }
+.more-benefit{ float: right; margin:0; }
+.slider{
+	overflow: hidden;
+    position: relative;
+    width: 687px;
+    height: 325px;
+    background-color: #fff;
+    margin-left: 0;
+}
+.slide-view{
+	position: absolute;
+    width: 1100px;
+    height: 325px;
+    font-size: 0;
+    line-height: 0;
+}
+.cell{ display: block; position: absolute; float: none; }
+.position{ overflow: hidden; position: relative; display: flex; width: 100%; height: 100%; }
+.slide-view-left{ width: 300px; height: 230px; margin: 0; top: 0px; }
+.slide-view-right{ width: 685px; height: 325px; margin: 0; left: 300px;}
+.benefit-bottom{ background-color: #503396; width: 100vw; height: 331.5px; margin-top: 103px; }
+.benefit-banner{ position: relative; top: -102px; left: -20px; height: 204px; display: flex; justify-content: space-between; }
+.benefit-banner-link > img{ box-shadow: 10px 10px 10px 0px rgb(0 0 0 / 20%); margin: 0; border-radius: 5px;}
+.benefit-banner-left{ width: 441px; }
+.benefit-banner-right{ width: 204px; }
+
+.ad{ position: relative; z-index: 1; margin: 0;  box-shadow: 0 0 0;}
+.banner-ad{	width: 415px; height: 530px; position: relative; bottom: 325px; z-index: 0; border-radius: 5px; }
+.ad-box{ position: absolute; bottom: -9px; right: 8px; }
+
+.benefit-list{ display: grid; grid-template-columns: repeat(5,1fr); position: absolute; bottom: -35px; left: -20px; align-items: end; z-index: 5;}
+.benefit-list-icon{ margin: 0; width: 200px; }
+.benefit-list > li > a{ color: #FFFFFF; font-size: 15px; text-decoration: none; width: 200px; text-align: center; }
+.benefit-list > li > a > img{ margin: 0 69px 10px 69px; }
+/*혜택*/
+
+/*큐레이션*/
+.curation{ width: 100vw; height: 840px; background-color: #252451; }
+.curation-top{ padding-top: 50px; margin-bottom: 30px; display: flex; justify-content: space-between; }
+.curation-top .tit{ color:#FFFFFF; font-size:30px; margin:0; font-weight: 400; }
+.more-curation{ font-size: 15px; color: #aaa; float:right; margin:0; z-index: 100; }
+.curation-button{ height: 50px; margin-right: 10px; font-size: 1.3333em; color: #FFFFFF; display: flex; align-items: center; justify-content: center; position: relative; padding: 0; border-radius: 4px ;}
+
+.curation-button.left{ width: 143px; background-color: transparent; border: 1px solid #FFFFFF; text-decoration: none;}
+.curation-button.right{ width: 145px; background-color: #037B94; text-decoration: none;}
+.classic{ color: #FFFFFF; }
+.classic.top{ font-size: 1.3333em; padding-bottom: 10px;}
+.classic.title{ font-size: 2.4em; padding-bottom: 30px; border-bottom: 1px solid #474681;}
+.classic.summary{ line-height: 1.5; }
+.classic.summary:first-line { line-height: 60px; }
+
+.movie-list{ width: 730px; display: flex; justify-content: space-between; float: right; margin-top: 20px; margin-right: 5px;}
+.classic-film{ position: relative; margin: 0; width: 170px; padding: 0; text-decoration: none;}
+.classic-film > img{ border-radius: 10px; }
+.classic-film > p { text-align: center; color: #FFFFFF; padding-top: 10px; font-size: 15px; }
+.classic-film:hover { text-decoration: none; }
+
+.red-flag{ z-index: 1; position: absolute; top: -5px; left: 10px;}
+/*큐레이션*/
+
+/*메가박스 안내*/
+.info .tit { color: #351f66; font-size: 1.8666em; font-weight: 400; }
+.info-room{ display: flex; }
+.info-room > a { padding: 0; margin-left: 16px; width: 170px; height: 170px; overflow: hidden; border-radius: 10px; position: relative; box-shadow: 5px 5px 10px 0px rgb(0 0 0 / 20%);}
+.info-room > a:first-child { margin: 0; }
+.info-room > a > img{  width: 100%; position: absolute; left: 0; top: 0; }
+.info-room > a > img:hover{ top: -170px; }
+.dolby:after {
+    position: absolute;
+    content: "NEW";
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #329eb1;
+    text-indent: 0;
+    display: block;
+}
+
+.info-notice{ border: 1px solid #e2e2e2; margin-top: 50px; border-width: 1px 0;}
+.info-notice .wrap{ display: block; position: relative; width: 1100px; margin: 0 auto; padding: 0 175px 0 95px; }
+.info-notice .wrap:before, .info-notice .wrap:after{ content: ''; display: table; }
+.info-notice .wrap{ clear: both; }
+.info-notice .wrap > p{ height: 60px; line-height: 60px; margin: 0; padding: 0; } 
+.info-notice .wrap > p > a{ padding: 0; }
+.info-notice .wrap .tit{ position: absolute; left: 0; top: 0; color: #222; font-weight: 400; }
+.info-notice .wrap .link{ position: relative; }
+.info-notice .wrap .link:before{ content: ''; display: block; position: absolute; left: -20px; top: 50%; width: 1px; height: 14px; margin-top: -7px; background-color: #e2e2e2; }
+.info-notice .wrap .link a{ overflow: hidden; display: inline-block; color: #222; max-width: 100%; white-space: nowrap; text-overflow: ellipsis; }
+.info-notice .wrap .link a strong{ color: #01738b; }
+.info-notice .wrap .date{ position: absolute; right: 85px; top: 0; color: #666; font-family: 'Roboto'; }
+.info-notice .wrap .more{ position: absolute; right: 0; top: 0; width: 70px; text-align: right; color: #222;}
+.info-notice .wrap .more:before{ content: ''; display: block; position: absolute; left: 0; top: 50%; width: 1px; height: 14px; margin-top: -7px; background-color: #e2e2e2; }
+.info-notice .wrap .more .iconset{ margin-top: -3px; margin-left: 5px; }
+.ico-arr-right-gray{ overflow: hidden; width: 7px; height: 12px; background-image: url(MEGABOX/ico-arr-right-gray.png) }
+
+.info-link{ margin: 0 auto; padding: 50px 0; display: grid; grid-template-columns: repeat(6,1fr); }
+.info-link > li > a{ color: #222222; font-size: 15px; text-align: center;}
+.info-link > li > a > img{ margin: 0 60px 10px 60px; }
+/*메가박스 안내*/
+/*푸터*/
+#footer{ position: relative; min-width: 1100px; width: 100%; height: 200px; margin: 0; padding: 0; background-color: #f8f8fa; }
+
+.footer-top { overflow: hidden; width: 1100px; margin: 0 auto; padding: 30px 0; }
+.inner-wrap{ width: 1100px; margin: 0 auto; }
+.inner-wrap:before, .inner-wrap:after{ content: '';	display: table; }
+#footer .footer-top .fnb { float: left; }
+#footer .footer-top .fnb li{ float: left; margin-left: 14px; }
+#footer .footer-top .fnb li:first-child { margin-left: 0; }
+#footer .footer-top .fnb li a{ display: block; color: #666; line-height: 30px; font-size: .8667em; padding: 0;}
+#footer .footer-top .fnb li.privacy a { color: #222; font-weight: 700; }
+#footer .footer-top .looking-theater { overflow: hidden; float: right; display: block; width: 106px; height: 30px; margin: 0; padding: 0; text-align: center; line-height: 28px; color: #666; font-size: .8667em; border: 1px solid #d8d9db; border-radius: 30px; text-decoration: none; }
+#footer .footer-top .looking-theater i { margin-left: 4px; }
+.ico-footer-search{ width: 15px; height: 15px; background-image: url(MEGABOX/ico-footer-search.png); }
+
+#footer .footer-bottom .ci{ overflow: hidden; display: block; float: left; width: 150px; height: 50px; margin: 0 20px 0 0; padding: 0; text-indent: -9999px; background: url(MEGABOX/logo-opacity_new2.png) no-repeat center; }
+#footer .footer-bottom .footer-info { float: left; font-size: .8667em; letter-spacing: 0; line-height: 1.5; }
+#footer .footer-bottom .footer-info address { display: inline-block; vertical-align: top; font-style: normal; }
+#footer .footer-bottom .footer-info p { display: inline-block; vertical-align: top; }
+#footer .footer-bottom .footer-info p.copy { display: block; }
+#footer .footer-bottom .footer-sns { float: right; }
+#footer .footer-bottom .footer-sns a { display: block; float: left; width: 32px; height: 30px; margin-left: 5px; font-size: 0; line-height: 0; }
+#footer .footer-bottom .footer-sns a i { display: block; margin: 0; }
+.ico-twitter{ width: 31px; height: 30px; background-image: url(MEGABOX/ico-twitter.png) ; }
+.ico-facebook{ width: 32px; height: 30px; background-image: url(MEGABOX/ico-facebook.png) }
+.ico-instagram{ width: 32px; height: 30px; background-image: url(MEGABOX/ico-instagram.png) }
+.ico-googleplay{ width: 32px; height: 30px; background-image: url(MEGABOX/ico-googleplay.png) }
+.ico-appstore{ width: 31px; height: 30px; background-image: url(MEGABOX/ico-appstore.png) }
+/*푸터*/

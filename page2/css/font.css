@@ -1,0 +1,22 @@
+/* noto-sans-kr-100 - latin_korean */
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: local('※'),
+    url('../font/NanumBarunGothicWebLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'),
+    url('../font/NanumBarunGothicWeb.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'),
+    url('../font/NanumBarunGothicWebBold.woff') format('woff');
+}
