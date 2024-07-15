@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="media/favicon.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MEET PLAY SHARE, 메가박스</title>
+	<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div class="main">
+			<div class="container hidden">
+				<div class="main_movie">
+					<div class="main_movie_top">
+						<ul>
+							<div class="main-top">
+								<p class="boxoffice">박스오피스</p>
+							</div>
+						</ul>
+					</div>
+					<div id="main_movie_list">
+						<ul class="list">
+							<li class="movie-foster"><img src="001.png" id="round"></li>
+							<li class="movie-foster"><img src="002.png" id="round"></li>
+							<li class="movie-foster"><img src="003.png" id="round"></li>
+							<li class="movie-foster"><img src="004.png" id="round"></li>
+						</ul>
+						<div class="list">
+							<div class="btn">
+								<li><div class="forster-btn">
+									<button type="button" id="round" class="like"><img src="https://megabox.co.kr/static/pc/images/common/ico/ico-heart-toggle-main.png"></button>
+								</div>
+								<li><div >
+									<button type="button" id="round" class="reserve"><a href="page1/page1.html" title="P1 이동하기">P1 이동하기</a>
+								</div>
+							</div>
+							<div class="btn">
+								<li><div class="forster-btn">
+									<button type="button" id="round" class="like"><img src="https://megabox.co.kr/static/pc/images/common/ico/ico-heart-toggle-main.png"></button>
+								</div>
+								<li><div>
+									<button type="button" id="round" class="reserve"><a href="page2/page2.html" title="P2 이동하기">P2 이동하기</a>
+								</div>
+							</div>
+							<div class="btn">
+								<li><div class="forster-btn">
+									<button type="button" id="round" class="like"><img src="https://megabox.co.kr/static/pc/images/common/ico/ico-heart-toggle-main.png"></button>
+								</div>
+								<li><div>
+									<button type="button" id="round" class="reserve"><a href="page3/page3.html" title="P3 이동하기">P3 이동하기</a>
+								</div>
+							</div>
+							<div class="btn" >
+								<li><div class="forster-btn">
+									<button type="button" id="round" class="like"><img src="https://megabox.co.kr/static/pc/images/common/ico/ico-heart-toggle-main.png"></button>
+								</div>
+								<li><div>
+									<button type="button" id="round" class="reserve"><a href="page4/page4.html" title="P4 이동하기">P4 이동하기</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="main_movie_foot">
+						<ul class="link-list">
+							<li class="link-item"><a href="javascript:ViewLayer1()"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-search-white.png" alt="P1 상세설명 보기">P1 상세설명 보기</a></li>
+								<div id="layer1">
+									<div class="text-area1">
+										<p> 담당 : 정보보호학과 2021111370학번 현소정</p><br><br>
+
+											<p>1. 메인 영화 - 박스오피스</p>
+											<p>- 영화 포스터에 hover 시 포스터 위에 영화 줄거리와 관람평이 나오는 기능 구현</p>
+											<p>- 하단의 움직이는 마우스를 css 활용으로 기능 구현</p><br>
+
+											<p>2. 혜택</p>
+											<p>- 배경이 흰색과 보라색으로 나뉘는 부분을 구현하고 아래의 배너 이미지들이 중간에 걸치도록 구현</p><br>
+											<p>3.  큐레이션</p>
+											<p>- 왼쪽에는 가장 큰 포스터가 위치하고 아래에 상세정보와 예매버튼 구현</p>
+											<p>- 오른쪽에는 해당 작품의 줄거리 및 정보와 아래에는 4개의 영화가 보이도록 구현</p><br>
+											<p>4. 메가박스 안내</p>
+											<p>- 각 영화관들의 흑백 이미지가 hover 시 컬러 이미지로 보이도록 구현</p>
+									</div>
+								</div>
+
+
+							<li class="link-item"><a href="javascript:ViewLayer2()"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-search-white.png" alt="P2 상세설명 보기">P2 상세설명 보기</a></li>
+							<div id="layer2">
+									<div class="text-area2">
+										<p>담당 : 정보보호학과 2020111336학번 오민정</p><br><br>
+			
+											<p>1. header</p>
+											<p>-상단 메뉴에 마우스를 올리면 하위메뉴가 나타나도록 구현</p>
+											<p>-사이트맵, 로그인 아이콘을 클릭하면 하단에 숨겨져있던 레이어 등장</p>
+											<p>-검색 아이콘 영역 : 각 영화의 이름 위에 마우스를 올리면 포스터가 바뀜</p><br>
+
+											<p>2. container (영화리스트)</p>
+											<p>- 각 영화 포스터 위에 마우스를 올리면 영화 줄거리 및 관람평이 보임</p><br>
+
+											<p>3. 페이지 스크롤 시</p>
+											<p>-페이지를 하단으로 내리면 상단에 페이지의 현재위치 표시</p>
+											<p>-오른쪽 하단에 top버튼을 누르면 페이지 상단으로 이동</p>
+									</div>
+								</div>
+							<li class="link-item"><a href="javascript:ViewLayer3()"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-search-white.png" alt="P3 상세설명 보기">P3 상세설명 보기</a></li>
+							<div id="layer3">
+									<div class="text-area3">
+										<p>담당 : 데이터사이언스학과 2021111712학번 김고은</p><br><br>
+
+											<p>1. header 영역</p>
+											<p>- a태그 요소 : 마우스 hover시 text-underline, 해당페이지 링크 연결</p>
+
+											<p>- 상단 드롭다운 메뉴 : css hover 이벤트를 주어 하위메뉴가 펼쳐지도록
+											구성, 자바스크립트를 활용한 border이벤트</p>
+
+											<p>- 페이지 레이어 : 자바스크립트 함수 활용, 아이콘 클릭시 레이어 등장
+											                 바뀐 아이콘 다시한번 클릭시 레이어 숨김</p>
+
+											<p>- 검색창 레이어 : input태그를 사용해 검색어 입력 기능 구현</p><br>
+
+											<p>2. container iframe 영역</p>
+
+											<p>- 자바스크립트 함수 활용, 상단 날짜 부분에 마우스 올리면 하단 border등장</p>
+
+											<p>- 전체영화 리스트 : jquery라이브러리 mCustomScrollbar 활용, 스크롤 기능 구현</p><br>
+
+											<p>3. footer 영역</p>
+
+											<p>- a태그 요소 및 sns 아이콘 : 마우스 hover시 text-underline, 해당페이지 링크 연결</p>
+
+											<p>- 극장찾기 버튼 : 극장찾기 레이어 삽입, 닫기아이콘에 자바스크립트 함수 걸어 레이어닫기 기능 구현</p>
+									</div>
+								</div>
+							<li class="link-item"><a href="javascript:ViewLayer4()" style="border:0;"><img src="https://img.megabox.co.kr/static/pc/images/common/ico/ico-search-white.png" alt="P4 상세설명 보기">P4 상세설명 보기</a></li>
+							<div id="layer4">
+									<div class="text-area4">
+										<p> 담당 : 데이터사이언스학과 2021111720학번 김채원</p><br><br>
+											<p>1. header 영역</p>
+											<p>- 사이트맵과 검색 기능 및 네비게이션 바 구현</p><br>
+											<p>2. body 영역</p>
+											<p>- 실시간 길찾기 버튼 기능 및 이벤트 배너 기능 구현</p><br>
+											<p>3. footer 영역</p>
+											<p>- 다른 페이지와 링크 연결 및 아이콘을 누르면 메가박스 해당 SNS로 넘어갈 수 있도록 제작</p>
+									</div>
+							</div>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bg">
+				<div class="blur">
+				</div>
+			</div>
+		</div>
+
+		<!--자바스크립트 영역-->
+		<script type="text/javascript">  
+			function ViewLayer1(){
+				if(document.getElementById("layer1").style.display=="none" || document.getElementById("layer1").style.display=="" ){								           
+					document.getElementById("layer1").style.display='inline'								        
+				}
+				else{								           
+						document.getElementById("layer1").style.display='none'
+				}
+			}
+
+			function ViewLayer2(){
+				if(document.getElementById("layer2").style.display=="none" || document.getElementById("layer2").style.display=="" ){								           
+					document.getElementById("layer2").style.display='inline'								        
+				}
+				else{								           
+					document.getElementById("layer2").style.display='none'
+				}
+			}
+		
+			function ViewLayer3(){
+				if(document.getElementById("layer3").style.display=="none" || document.getElementById("layer3").style.display=="" ){								           
+					document.getElementById("layer3").style.display='inline'								        
+				}
+				else{		           
+					document.getElementById("layer3").style.display='none'
+				}
+			}
+		
+			 function ViewLayer4(){
+				if(document.getElementById("layer4").style.display=="none" || document.getElementById("layer4").style.display=="" ){		           
+					document.getElementById("layer4").style.display='inline'								        
+					}
+					else{								           
+						document.getElementById("layer4").style.display='none'
+					}
+			}
+		</script> 
+	</body>
+</html>
